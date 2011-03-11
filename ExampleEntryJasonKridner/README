@@ -1,0 +1,11 @@
+I've left my source code around as an example.  To build, run 'make'.
+
+To execute, put this onto an Angstrom Linux ARM system and invoke helloworld.bin.
+
+I welcome patches that demonstrate this working with QEMU such that students are more easily
+able to validate their work.
+
+Jason Kridner
+jkridner on #beagle
+BeagleBoard.org GSoC admin
+
