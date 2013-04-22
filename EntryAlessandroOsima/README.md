@@ -2,7 +2,7 @@ Alessandro Osima
 
 22 April 2013
 
-                                         GSoC beagleboard entry
+                                               GSoC beagleboard entry
 
 Crosscompiled on a debian system with the angstrom compiler using the following command: 
 
