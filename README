@@ -1,1 +1,5 @@
-Run 'make' in the directory containing the source file and the makefile
+To Build:
+    Run 'make' in the directory containing the source file and the makefile.
+
+To Execute:
+    run './qual' in the directory of the binary qual
