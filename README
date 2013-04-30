@@ -2,7 +2,7 @@ To Build:
     Run 'make' in the directory containing the source file and the makefile.
 
 To Execute:
-    run './qual' in the directory of the binary qual
+    Run './qual' in the directory of the binary called 'qual'.
 
 
 Example binary built with:
