@@ -7,3 +7,6 @@ To Execute:
 
 Example binary built with:
     arm-none-linux-gnueabi-gcc (Sourcery CodeBench Lite 2011.09-70) 4.6.1
+
+Tested on:
+    TS-7800 running Debian GNU/Linux 7.0 (Wheezy), kernel 3.8.8
