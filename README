@@ -3,3 +3,7 @@ To Build:
 
 To Execute:
     run './qual' in the directory of the binary qual
+
+
+Example binary built with:
+    arm-none-linux-gnueabi-gcc (Sourcery CodeBench Lite 2011.09-70) 4.6.1
