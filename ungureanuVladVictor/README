@@ -1,0 +1,4 @@
+To run this binary put on an ARM device and invoke it ./hellowrold.bin or use qemu-arm-static helloworld.bin to run it in an emulated environment.
+
+Vlad Victor Ungureanu
+http://vdev.ro
