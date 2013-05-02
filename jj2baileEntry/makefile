@@ -1,6 +1,6 @@
 PREFIX = arm-none-linux-gnueabi
 CC = $(PREFIX)-gcc
-CFLAGS = --static -Wall -Werror
+CFLAGS = -static -Wall -Werror
 
 all: qual
 
