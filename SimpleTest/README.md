@@ -15,5 +15,5 @@ One needs export the required pin number first:
 where the required pin number for a GPIOM_N can be derived by M*32 + N. 
 
 In the actual implementation, the export will be performed by a bashscript or an init() function. Same goes for the
-Devicetree overlays, which maybe required for UART and PWM.
+Devicetree overlays, which maybe required for UART, PWM and other peripherals.
 
