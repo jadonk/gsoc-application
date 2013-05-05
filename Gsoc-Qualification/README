@@ -1,0 +1,15 @@
+First I installed Angstrom Cross Compiler suit,
+	angstrom-2011.03-i686-linux-armv7a-linux-gnueabi-toolchain
+then,I edited the .bashrc to seth the path of the compiler.(/usr/local/angstrom/arm/arm-angstrom-linux-gnueabi)
+
+Second I installed QEMU emulator using the shell command,
+	 yum install qemu
+
+
+Third I make anothe variable CC to store the string,
+	arm-angstrom-linux-gnueabi-gcc
+
+Finally to compile my helloWorld.c file,
+	$CC -static -o runner.bin helloWorld.c
+to execute,
+	qemu-arm runner.bin
