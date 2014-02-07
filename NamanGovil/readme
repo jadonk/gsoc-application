@@ -1,0 +1,5 @@
+Hi,
+I have created this Hello World Application for demonstrating the cross compilation
+I have used:
+arm-linux-gnueabi-gcc -o <name> <name.c> : For compiling
+qemu-arm -L /usr/arm-linux-gnueabi/ ./<name>: For executing it. I used a qemu instance on my machine
