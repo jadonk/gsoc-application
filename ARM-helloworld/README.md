@@ -1,4 +1,4 @@
-1) First I installed gcc-arm-linux-gnueabi on Xununtu.
+1) First I installed *gcc-arm-linux-gnueabi* on Xununtu.
 
   `sudo apt-get install gcc-arm-linux-gnueabi`
 
