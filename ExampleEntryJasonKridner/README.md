@@ -18,4 +18,6 @@ BeagleBoard.org GSoC admin
 
 About the binary file: 'hello.bin' was compiled with gcc linaro for beagleboard while 'world.bin' for raspberry pi. 
 
+Tested on Raspberry Pi. 
+
 Zhongying Qiao 
