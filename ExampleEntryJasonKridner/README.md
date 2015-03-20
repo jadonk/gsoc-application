@@ -13,3 +13,5 @@ Jason Kridner
 jkridner on #beagle
 BeagleBoard.org GSoC admin
 
+After successful cross compilation I got "Ketul Shah - Mar 20 2015"
+
