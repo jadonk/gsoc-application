@@ -1,1 +1,2 @@
-tested helloworld app on qemu crosscompiled for beagleboard.
+tested helloworld app on qemu.
+code crosscompiled for beagleboard.
