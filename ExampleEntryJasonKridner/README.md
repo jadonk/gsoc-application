@@ -12,11 +12,11 @@ Rohith Madhavan <rohithmadhavan@gmail.com>
 
 Screenshots - 
 
-1. Cross-compiling and executing using `qemu` on an x86 system -
+Cross-compiling and executing using `qemu` on an x86 system -
 
 ![alt tag](https://github.com/rohithmadhavan/gsoc-application/blob/master/ExampleEntryJasonKridner/Screenshotx86.png)
 
-2. Executing the binary on an ARM system -
+Executing the binary on an ARM system -
 
  ![alt tag](https://github.com/rohithmadhavan/gsoc-application/blob/master/ExampleEntryJasonKridner/ScreenshotARM.png)
 
