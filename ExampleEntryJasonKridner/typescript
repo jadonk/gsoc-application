@@ -1,0 +1,26 @@
+Script started on Tuesday 01 March 2016 07:31:32 PM IST
+[0;35maditya[0;32m[0;34m ~ $ [0marm-linux-gnueabi-gcc-4,[K.7 hellowrold.c[K[K[K[K[K[Korld.c -o arm-hellobbb
+[0;35maditya[0;32m[0;34m ~ $ [0mscp arm-hellobbb root@192.168.7.2:/root/hello/
+Debian GNU/Linux 7
+
+BeagleBoard.org BeagleBone Debian Image 2014-04-23
+
+Support/FAQ: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+arm-hellobbb                                    0%    0     0.0KB/s   --:-- ETAarm-hellobbb                                  100% 8422     8.2KB/s   00:00    
+[0;35maditya[0;32m[0;34m ~ $ [0mssh root@192.168.7.2
+Debian GNU/Linux 7
+
+BeagleBoard.org BeagleBone Debian Image 2014-04-23
+
+Support/FAQ: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+Last login: Wed Apr 23 21:28:08 2014 from aditya-pc.local
+root@beaglebone:~# ls  cd hello
+root@beaglebone:~/hello# ./arm-hellobbb
+Jason Kridner - Mar  1 2016
+root@beaglebone:~/hello# exit
+logout
+Connection to 192.168.7.2 closed.
+[0;35maditya[0;32m[0;34m ~ $ [0mexit
+exit
+
+Script done on Tuesday 01 March 2016 07:36:39 PM IST
