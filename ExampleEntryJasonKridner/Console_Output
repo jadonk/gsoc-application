@@ -1,0 +1,8 @@
+Last login: Wed Apr 23 21:15:58 2014 from aditya-pc.local
+echo $PWD'>'
+/hello2;exit
+root@beaglebone:~# echo $PWD'>'
+/root>
+root@beaglebone:~# /hello2;exit
+Jason Kridner - Mar  1 2016
+logout
