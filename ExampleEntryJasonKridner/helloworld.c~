@@ -2,5 +2,5 @@
 
 int main(int argc, char** argv)
 {
-	printf("Udayan Prabir Sinha- %s\n", __DATE__);
+	printf("Udayan Prabir Sinha - %s\n", __DATE__);
 }
