@@ -1,2 +1,2 @@
-all:
-	${CC} -static -o helloworld.bin helloworld.c
+﻿all:
+	$ arm-linux-gnueabi-gcc -static -o myapplication.bin helloworld.c
