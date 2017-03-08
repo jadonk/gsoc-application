@@ -1,15 +1,7 @@
-I've left my source code around as an example.  To build, run `make`.
+Hi!!
+I am Naveen Saini from India and would like to work on sonic anemometer on beagleboard,picking up from last year and make it able to measure wind speed with help of 3 axis analysis.
 
-To cross-build so that it can run on an ARM platform, install a cross-compiler,
-then run `CC=${PATH_TO_ARM_CROSS} make` where ${PATH_TO_ARM_CROSS} for the
-Angstrom cross compilers would be "arm-angstrom-linux-gnueabi-gcc".  If you're
-using the emdebian cross compilers, then it would be "arm-linux-gnueabi-gcc".
+Here I have compiled helloworld file with linaro arm-linux-gnueabihf, which was present in toolchain compiled already for macOS and got it from here http://www.welzels.de/blog/en/arm-cross-compiling-with-mac-os-x/.
 
-To execute the cross built binary, put it onto an ARM Linux system and invoke
-helloworld.bin.  To execute the cross built binary on QEMU, install qemu-static
-on your machine and run `qemu-arm-static ./helloworld.bin`.
-
-Jason Kridner
-jkridner on #beagle
-BeagleBoard.org GSoC admin
+thanks!
 
