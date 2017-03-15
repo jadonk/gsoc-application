@@ -1,3 +1,9 @@
+# GSoC 2017 Entry Task
+## by T.Aditya (Second Year Undergrad student from IIIT-B)
+
+* Installed emdebian cross compilers & QEMU on my Linux Mint, then cross compiled helloworld.c and executed ./helloworld.bin 
+* Output : Aditya.T - Mar 14 2017
+
 I've left my source code around as an example.  To build, run `make`.
 
 To cross-build so that it can run on an ARM platform, install a cross-compiler,
