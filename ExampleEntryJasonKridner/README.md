@@ -1,15 +1,12 @@
-I've left my source code around as an example.  To build, run `make`.
+I cross compiled on Arch Linux 64Bit, with following packages:
+* arm-none-eabi-gcc (cross-compiler)
+* qemu-user-static (AUR) (qemu runneer)
 
-To cross-build so that it can run on an ARM platform, install a cross-compiler,
-then run `CC=${PATH_TO_ARM_CROSS} make` where ${PATH_TO_ARM_CROSS} for the
-Angstrom cross compilers would be "arm-angstrom-linux-gnueabi-gcc".  If you're
-using the emdebian cross compilers, then it would be "arm-linux-gnueabi-gcc".
+This are the commands I used:
+    CC=arm-none-eabi-gcc make
+    make run
 
-To execute the cross built binary, put it onto an ARM Linux system and invoke
-helloworld.bin.  To execute the cross built binary on QEMU, install qemu-static
-on your machine and run `qemu-arm-static ./helloworld.bin`.
+My proposal: [http://elinux.org/BeagleBoard/GSoC/Bonescript_remote_deployer]
 
-Jason Kridner
-jkridner on #beagle
-BeagleBoard.org GSoC admin
-
+Francesco Guardiani
+IT Engineering student of Politecnico di Milano (Italy)
