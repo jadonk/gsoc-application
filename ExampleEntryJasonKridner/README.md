@@ -1,15 +1,17 @@
-I've left my source code around as an example.  To build, run `make`.
+# GSoC'17 Entry Task Submission - Shreyas Iyer
+<p>
+<b>** Cross-compilation on macOS Sierra v10.12.3:</b>
+<ol>
+<li>Installed arm-none-eabi-gcc.</li>
+<li>Needed to add a few arguments in the Makefile (<b>'--specs=rdimon.specs -lgcc -lc -lm -lrdimon -o'</b>) to be able to compile the given file.</li>
+<li>Modified the C program, and added my name to it.</li>
+<li>Invoked compilation of the 'helloworld.c' file, using the Makefile, which results in a binary file 'helloworld.bin'</li>
+</ol>
+<b>** Execution of the produced binary file:</b>
+<ul>
+<li>Installed QEMU on macOS, and ran <i>'qemu-arm-static ./helloworld.bin'</i></li>
+</ul>
+</p>
+<i>Regards, Shreyas Iyer </i>
 
-To cross-build so that it can run on an ARM platform, install a cross-compiler,
-then run `CC=${PATH_TO_ARM_CROSS} make` where ${PATH_TO_ARM_CROSS} for the
-Angstrom cross compilers would be "arm-angstrom-linux-gnueabi-gcc".  If you're
-using the emdebian cross compilers, then it would be "arm-linux-gnueabi-gcc".
-
-To execute the cross built binary, put it onto an ARM Linux system and invoke
-helloworld.bin.  To execute the cross built binary on QEMU, install qemu-static
-on your machine and run `qemu-arm-static ./helloworld.bin`.
-
-Jason Kridner
-jkridner on #beagle
-BeagleBoard.org GSoC admin
 
