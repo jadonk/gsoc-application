@@ -12,4 +12,3 @@ on your machine and run `qemu-arm-static ./helloworld.bin`.
 Jason Kridner
 jkridner on #beagle
 BeagleBoard.org GSoC admin
-
