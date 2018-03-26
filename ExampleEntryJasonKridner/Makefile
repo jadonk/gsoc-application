@@ -1,2 +1,2 @@
 all:
-	${CC} -static -o helloworld.bin helloworld.c
+	${CC}gcc -static -o helloworld.bin helloworld.c
