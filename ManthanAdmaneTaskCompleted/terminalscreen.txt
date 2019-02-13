@@ -1,0 +1,6 @@
+osboxes@osboxes:~$ arm-linux-gnueabi-gcc hello.c -o hello
+osboxes@osboxes:~$ qemu-arm-static ./hello
+Manthan Admane - Feb 14 2019
+osboxes@osboxes:~$ file hello
+hello: ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux.so.3, for GNU/Linux 3.2.0, BuildID[sha1]=9fa6d1f479524c147ea41be25a11e64444109c55, not stripped
+osboxes@osboxes:~$ 
