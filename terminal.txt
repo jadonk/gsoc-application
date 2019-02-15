@@ -1,0 +1,8 @@
+kaustubh@hp-probook-440-g4:~$ arm-linux-gnueabi-gcc helloWorld.c -o helloWorld
+kaustubh@hp-probook-440-g4:~$ qemu-arm-static ./helloWorld
+Kaustubh Shankar - Feb 15 2019
+kaustubh@hp-probook-440-g4:~$ file helloWorld
+helloWorld: ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux.so.3, for GNU/Linux 3.2.0, BuildID[sha1]=db82453b20b414d91347c93175eb44b20d748af9, not stripped
+kaustubh@hp-probook-440-g4:~$
+
+
