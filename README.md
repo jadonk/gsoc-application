@@ -33,7 +33,27 @@
 
 [filezilla]: ./assets/filezilla_details.png
 
-## 2. Creating the pull request
+## 2 Cross compiling arm c code on Fedora Linux.
+
+-  Installing the required software on my Fedora machine.
+	- Installing Qemu 
+		+  `$ sudo dnf groupinstall virtualization`
+		+  `$ sudo dnf install qemu qemu-user-static qemu-system-arm`
+		
+	- Installing arm tools.
+		+ `$ sudo dnf install arm-none-eabi-gcc-cs arm-none-eabi-newlib arm-none-eabi-binutils-cs`
+
+- Compiling the c code.
+
+	- `$ arm-none-eabi-gcc --specs=rdimon.specs   -Wl,--start-group -lgcc -lc -lm -lrdimon -Wl,--end-group helloworld_cross.c -o helloworld_cross`
+
+- Running the binary.
+	- `$ qemu-arm-static helloworld_cross <optional name>`
+	
+	
+
+
+## 3. Creating the pull request
 
 - Fork the [original repo](https://github.com/jadonk/gsoc-application).
 - Clone it on your local machine `$ git clone <you repo link>.`
