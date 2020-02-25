@@ -64,3 +64,15 @@
 	- commit your changes using `$ git commit -m <message>".`
 - Push the files to your repo `$ git push origin myapp`.
 - Create the pull request!
+
+-----
+
+## References:
+
+1. https://stackoverflow.com/questions/13235748/linker-error-on-a-c-project-using-eclipse
+2. https://stackoverflow.com/questions/47787562/u-boot-lib-ld-linux-armhf-so-3-no-such-file-or-directory
+3. https://askubuntu.com/questions/502815/should-arm-none-eabi-gcc-include-a-stdio-h
+4. https://fedoraproject.org/wiki/Architectures/ARM/HowToQemu
+5. https://opensourceforu.com/2011/06/qemu-for-embedded-systems-development-part-1/
+6. https://www.suchprogramming.com/cross-compiling-c-code-for-arm/
+7. https://github.com/jadonk/gsoc-application/blob/master/ExampleEntryJasonKridner/README.md
