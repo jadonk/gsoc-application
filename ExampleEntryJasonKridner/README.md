@@ -1,15 +1,35 @@
-I've left my source code around as an example.  To build, run `make`.
+## GSoC 2020 Task: Cross-compilation
 
-To cross-build so that it can run on an ARM platform, install a cross-compiler,
-then run `CC=${PATH_TO_ARM_CROSS} make` where ${PATH_TO_ARM_CROSS} for the
-Angstrom cross compilers would be "arm-angstrom-linux-gnueabi-gcc".  If you're
-using the emdebian cross compilers, then it would be "arm-linux-gnueabi-gcc".
+1) Execute 
 
-To execute the cross built binary, put it onto an ARM Linux system and invoke
-helloworld.bin.  To execute the cross built binary on QEMU, install qemu-static
-on your machine and run `qemu-arm-static ./helloworld.bin`.
+```
+$ sudo apt-get install gcc-arm-linux-gnueabihf 
+```
+to install the cross-compilation toolchain for ARM 32bit arch. 
 
-Jason Kridner
-jkridner on #beagle
-BeagleBoard.org GSoC admin
+2) Run
 
+```
+$ arm-linux-gnueabihf-gcc -static -o helloworld.arm helloworld.c
+```
+to generate the statically cross-built binary. (See Makefile)
+
+3) A good check to see the success of the previous step is to execute
+
+```
+$ file helloworld.arm
+> helloworld.arm: ELF 32-bit LSB executable, ARM, EABI5 version 1 (GNU/Linux), statically linked, BuildID[sha1]=d7e47e2c9f8241a0dcc4341191ac5fed31425877, for GNU/Linux 3.2.0, not stripped 
+```
+
+4) Install an emulator (ex: QEMU) to run the binary on an ARM32-arch-based board
+
+```
+$ sudo apt install qemu-user-static
+```
+
+5) For the final test, type
+
+```
+$ qemu-arm-static helloworld.arm
+> Nishant Malpani - Feb 29 2020
+```
