@@ -1,0 +1,10 @@
+
+* GSoC 2020 Qualification Task - Cross compilation
+
+  Cross compilation task done by Mohana Datta Yelugoti (ymdatta) on 02-03-2020 (2nd of March) as part of
+  qualification task for participating in GSoC 2020 under BeagleBoard.org
+
+  The result was verified using QEMU emulator, using the command `qemu-arm-static`.
+
+  To check the result: `qemu-arm-static helloworld.bin`.
+  To check whether helloworld.bin was compiled to ARM instruction set: `file helloworld.bin`
