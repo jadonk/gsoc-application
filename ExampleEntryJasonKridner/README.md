@@ -26,4 +26,7 @@ Test application on emulator
 ```$ qemu-arm-static helloworld```
 
 The wokspace at this point looks like this:
-[]()
+[dir](https://github.com/PrashantDandriyal/gsoc-application/blob/master/ExampleEntryJasonKridner/dir_final.PNG)
+
+The final results are:
+[Console Output](https://github.com/PrashantDandriyal/gsoc-application/blob/master/ExampleEntryJasonKridner/console_output.PNG)
