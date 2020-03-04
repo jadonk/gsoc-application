@@ -19,13 +19,15 @@ Change working directory
 $ cd gsoc-application/ExampleEntryJasonKridner
 ```
 Cross compile 
+
 ```
 $ arm-none-eabi-gcc --specs=rdimon.specs   -Wl,--start-group -lgcc -lc -lm -lrdimon -Wl,--end-group helloworld.c -o helloworld
 ```
 Test application on emulator
+
 ```$ qemu-arm-static helloworld```
 
-The wokspace at this point looks like this:
+After zipping the contents, the workspace at this point looks like this:
 
 ![dir](https://github.com/PrashantDandriyal/gsoc-application/blob/master/ExampleEntryJasonKridner/dir_final.PNG)
 
