@@ -1,15 +1,36 @@
-I've left my source code around as an example.  To build, run `make`.
+## The repository contains the cross-compiled C code in process of applying for GSoC 2020 for BeagleBone organization.
 
-To cross-build so that it can run on an ARM platform, install a cross-compiler,
-then run `CC=${PATH_TO_ARM_CROSS} make` where ${PATH_TO_ARM_CROSS} for the
-Angstrom cross compilers would be "arm-angstrom-linux-gnueabi-gcc".  If you're
-using the emdebian cross compilers, then it would be "arm-linux-gnueabi-gcc".
+The steps used are: 
+Install updates
 
-To execute the cross built binary, put it onto an ARM Linux system and invoke
-helloworld.bin.  To execute the cross built binary on QEMU, install qemu-static
-on your machine and run `qemu-arm-static ./helloworld.bin`.
+```$ sudo apt-get update```
 
-Jason Kridner
-jkridner on #beagle
-BeagleBoard.org GSoC admin
+Install ```qemu``` for emulating ARM microcontroller
+```
+$ sudo apt-get install qemu qemu-user-static qemu-system-arm
+```
+Clone the forked repository containing the code
+```
+$ git clone https://github.com/PrashantDandriyal/gsoc-application.git  
+```
+Change working directory
 
+```
+$ cd gsoc-application/ExampleEntryJasonKridner
+```
+Cross compile 
+
+```
+$ arm-none-eabi-gcc --specs=rdimon.specs   -Wl,--start-group -lgcc -lc -lm -lrdimon -Wl,--end-group helloworld.c -o helloworld
+```
+Test application on emulator
+
+```$ qemu-arm-static helloworld```
+
+After zipping the contents, the workspace at this point looks like this:
+
+![dir](https://github.com/PrashantDandriyal/gsoc-application/blob/master/ExampleEntryJasonKridner/dir_final.PNG)
+
+The final results are:
+
+![Console Output](https://github.com/PrashantDandriyal/gsoc-application/blob/master/ExampleEntryJasonKridner/console_output.PNG)

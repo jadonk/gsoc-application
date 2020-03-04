@@ -2,5 +2,6 @@
 
 int main(int argc, char** argv)
 {
-	printf("Jason Kridner - %s\n", __DATE__);
+	printf("Prashant Dandriyal - %s\n", __DATE__);
+	printf("\nThis marks the successful cross compilation of the C file !");
 }
