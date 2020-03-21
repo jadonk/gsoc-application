@@ -19,4 +19,4 @@ Output and the command that was run is shown in /image folder
 ![](https://github.com/VedantParanjape/gsoc-application/blob/vedant_paranjape_gsoc2020/ExampleEntryJasonKridner/images/copy_to_kindle.png)
 
 ### output on kindle
-![](https://github.com/VedantParanjape/gsoc-application/blob/vedant_paranjape_gsoc2020/ExampleEntryJasonKridner/images/output_on_kindle.png)
+![](https://github.com/VedantParanjape/gsoc-application/blob/vedant_paranjape_gsoc2020/ExampleEntryJasonKridner/images/output_kindle.png)
