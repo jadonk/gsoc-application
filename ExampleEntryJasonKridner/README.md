@@ -1,4 +1,4 @@
-# GSoC Task 2020: Beaglebone: Cross-compiling
+# GSoC Task 2020: Beaglebone: Cross-compiling: Vedant Paranjape
 
 Crosscompiled to run on a linux, which has a armV7 processor.
 
@@ -12,5 +12,3 @@ Output and the command that was run is shown in /image folder
 
 ### output on kindle
 ![](https://github.com/VedantParanjape/gsoc-application/blob/vedant_paranjape_gsoc2020/ExampleEntryJasonKridner/images/output_on_kindle.png)
-
-Vedant Paranjape
