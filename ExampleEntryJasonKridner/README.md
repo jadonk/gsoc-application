@@ -1,6 +1,6 @@
 # GSoC Task 2020: Beaglebone: Cross-compiling: Vedant Paranjape
 
-Crosscompiled to run on a linux, which has a armV7 processor.
+Crosscompiled to run on arm linux device, tested on a actual kindle device as well as qemu-emulation
 
 Output and the command that was run is shown in /image folder
 
