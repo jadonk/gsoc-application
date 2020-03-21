@@ -4,6 +4,9 @@ Crosscompiled to run on a linux, which has a armV7 processor.
 
 Output and the command that was run is shown in /image folder
 
+## QEMU OUTPUT
+
+## KINDLE OUTPUT
 ### compile command
 ![](https://github.com/VedantParanjape/gsoc-application/blob/vedant_paranjape_gsoc2020/ExampleEntryJasonKridner/images/compile_command.png)
 

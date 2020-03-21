@@ -3,7 +3,7 @@
 
 int main(int argc, char** argv)
 {
-	printf("Vedant Paranjape, testing on Kindle Touch 2014, TIME: %s, DAY: %s\n", __TIME__, __DATE__);
+	printf("Vedant Paranjape, testing on Kindle Touch 2014 or a x86 system, TIME: %s, DAY: %s\n", __TIME__, __DATE__);
 	
 	FILE *info = fopen("/proc/cpuinfo", "rb");
 	char *arg = 0;
