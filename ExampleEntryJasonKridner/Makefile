@@ -1,8 +1,8 @@
 #Target:  ubuntu amd64
-#cc=gcc
+#CC=gcc
 #Target: Beaglebone arm
-cc=arm-linux-gnueabihf-gcc
+CC=arm-linux-gnueabihf-gcc
 
 
 all:
-	${CC} -static -o helloworld.bin helloworld.c
+	${CC} -static -o helloworldAMD64.bin helloworld.c
