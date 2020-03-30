@@ -12,7 +12,7 @@ Using gcc I compiled the program and executed it, using the commands :
 
 `$ ./hello_world`
 
-![Hello_world.c executed][./pics/Hello_world_exec.png]
+![Hello_world.c executed](./pics/Hello_world_exec.png)
 
 ## 2. Cross Compiling Arm C code on Ubuntu
 
