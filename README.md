@@ -3,8 +3,7 @@
 ## 1. Create Hello World Program
 - I used my ubuntu OS to write my C code.
 - Using Gedit I wrote the Hello_world.c program.
-![Hello_world.c Gedit][hello0]
-[hello0]: ./pics/hello_world.png
+![Hello_world.c Gedit](./pics/hello_world.png)
 Using gcc I compiled the program and executed it, using the commands :
 `$ gcc hello_world.c -o hello_world`
 `$ ./hello_world`
