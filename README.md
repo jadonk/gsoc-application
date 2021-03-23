@@ -24,3 +24,12 @@ Release = 5.8.0-44-generic
 Machine = armv7l
 ```
 
+## Samsung Exynos & Termux
+
+<html>
+    <p align="center">
+        <a href="#gif">
+            <img src="./samsung_termux.jpeg" />
+        </a>
+    </p>
+</html>
