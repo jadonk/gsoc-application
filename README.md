@@ -33,3 +33,14 @@ Machine = armv7l
         </a>
     </p>
 </html>
+
+
+## Pocketbeagle Output
+
+<html>
+    <p align="center">
+        <a href="#gif">
+            <img src="./render1616494665390.gif" />
+        </a>
+    </p>
+</html>
