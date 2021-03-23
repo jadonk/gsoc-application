@@ -2,7 +2,7 @@
 
 Crosscompiled to run on arm linux device, tested on qemu-emulation
 
-Output and the command that was run is shown in /output folder
+Output is shown in /output folder
 
 ## OUTPUT
 ![](https://github.com/DhruvaG2000/gsoc-application/blob/master/outputs/vscodeSS.png)
