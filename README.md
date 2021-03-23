@@ -5,4 +5,4 @@ Crosscompiled to run on arm linux device, tested on qemu-emulation
 Output and the command that was run is shown in /output folder
 
 ## OUTPUT
-![](output/vscodeSS.png)
+![](https://github.com/DhruvaG2000/gsoc-application/blob/master/outputs/vscodeSS.png)
