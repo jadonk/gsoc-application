@@ -1,4 +1,4 @@
-# GSoC Task 2020: Beaglebone: Cross-compiling: Dhruva Gole
+# GSoC Task 2021: Beaglebone: Cross-compiling: Dhruva Gole
 
 Crosscompiled to run on arm linux device, tested on qemu-emulation
 
