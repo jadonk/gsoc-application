@@ -7,5 +7,5 @@ qemu-arm-static ./helloworld.bin
 ## OUTPUT:
 
 <p align="center">
-    <img width="872" height="211" src="Assets/marck.png">
+    <img width="972" height="151" src="Assets/marck.png">
 </p>
