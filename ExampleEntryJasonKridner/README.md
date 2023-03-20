@@ -1,15 +1,23 @@
-I've left my source code around as an example.  To build, run `make`.
+# George-GSoC-requirements
+for BeagleBoard.org GSoC application
+This is the task mentioned in the General requirments page
+https://elinux.org/BeagleBoard/GSoC/Ideas-2023#General_requirements
 
-To cross-build so that it can run on an ARM platform, install a cross-compiler,
-then run `CC=${PATH_TO_ARM_CROSS} make` where ${PATH_TO_ARM_CROSS} for the
-Angstrom cross compilers would be "arm-angstrom-linux-gnueabi-gcc".  If you're
-using the emdebian cross compilers, then it would be "arm-linux-gnueabi-gcc".
+to cross compile the hello.c program as ARM 32-bit ELF binary execute the following command
 
-To execute the cross built binary, put it onto an ARM Linux system and invoke
-helloworld.bin.  To execute the cross built binary on QEMU, install qemu-static
-on your machine and run `qemu-arm-static ./helloworld.bin`.
+`CC=arm-linux-gnueabi-gcc make`
 
-Jason Kridner
-jkridner on #beagle
-BeagleBoard.org GSoC admin
+this compiles the program.
+Check the file information with
 
+`file hello.bin`it should say
+
+`hello.bin: ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, BuildID[sha1]=a51c4a0f9a87096aa7446662de3853635a39ce67, for GNU/Linux 3.2.0, not stripped`
+
+next to run the program I ran
+
+`qemu-arm-static -L /usr/arm-linux-gnueabi ./hello.bin`
+
+The output will be the name followed by the date
+
+`George Johnson: Mar 18 2023`
