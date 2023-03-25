@@ -6,8 +6,4 @@ qemu-arm-static ./helloworld.bin
 ```
 ## OUTPUT:
 
-<p align="center">
-    <img width="572" height="111" src="ExampleEntryJasonKridner/assets/khushi.png">
-</p>
-
-
+![](./assests/khushi.png)
