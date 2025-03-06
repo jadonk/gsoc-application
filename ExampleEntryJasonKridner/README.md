@@ -13,3 +13,17 @@ Jason Kridner
 jkridner on #beagle
 BeagleBoard.org GSoC admin
 
+---
+
+###Martina Verardi's Notes
+
+I followed the steps to cross-compile and run the binary on QEMU within WSL. Here is what I did:
+```
+martina@MartinaX1:/mnt/c/Windows/Documents/gsoc-application/ExampleEntryJasonKridner$ make CC=arm-linux-gnueabihf-gcc
+arm-linux-gnueabihf-gcc -static -o helloworld.bin helloworld.c
+
+martina@MartinaX1:/mnt/c/Windows/Documents/gsoc-application/ExampleEntryJasonKridner$ qemu-arm-static ./helloworld.bin
+Martina Verardi - Mar  5 2025
+```
+
+```martina@MartinaX1:/mnt/c/Windows/Documents/gsoc-application/ExampleEntryJasonKridner$Everything``` worked as expected, and the binary successfully ran under QEMU inside WSL.
